@@ -1,0 +1,10 @@
+server:
+  port: 5005
+
+# 自定义属性名称-跨域情报
+mq-properties:
+  user: admin
+  password: admin
+  broker-url: tcp://13.114.143.193:61616
+  queue-name: test.boot.activemq.queue
+  topic-name: test.boot.activemq.topic
